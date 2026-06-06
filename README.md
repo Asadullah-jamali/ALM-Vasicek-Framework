@@ -1,5 +1,3 @@
-readme_content = r"""# Quantitative Asset-Liability Management (ALM) Solvency Engine
-
 An institutional-grade Quantitative Finance framework designed to execute dynamic solvency risk stress tests. The pipeline calibrates a continuous-time **Vasicek Short-Rate Model** against live 10-Year Treasury Yield data (`^TNX`) via Yahoo Finance, simulating macroeconomic trajectories while simultaneously evaluating capital erosion against systemic actuarial liability drains.
 
 ## 🔗 Live Deployment & Framework Links
