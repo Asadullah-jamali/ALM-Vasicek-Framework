@@ -47,7 +47,6 @@ $$\text{Expected Claims}_t = \text{Active Policies}_t \times \left( \frac{q_x}{5
 ```text
 ├── .gitignore                  # Institutional Python & Jupyter cache exclusions
 ├── ALM-vasicek-solvency-engine.ipynb   # Complete research development code notebook workflow
-├── app.py                      # Production-ready Streamlit user interface engine
 └── requirements.txt            # Explicit dependency version pinning matrix
 ```
 
