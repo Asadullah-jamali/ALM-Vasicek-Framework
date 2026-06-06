@@ -72,10 +72,6 @@ $$\text{Expected Claims}_t = \text{Active Policies}_t \times \left( \frac{q_x}{5
    pip install -r requirements.txt
    ```
 
-3. **Initialize the App Engine Locally**:
-   ```bash
-   streamlit run app.py
-   ```
 
 ---
 
@@ -84,10 +80,6 @@ $$\text{Expected Claims}_t = \text{Active Policies}_t \times \left( \frac{q_x}{5
 * **Data Sourcing API**: `yfinance` (Automated Federal Reserve 10-Year Yield extraction)
 * **Mathematical Vectorization**: `numpy` (Dense execution math), `pandas`
 * **Visualization Layer**: `matplotlib` (Distribution histograms & path charts)
-* **Cloud Interface**: `streamlit` (Highly-scalable cloud dashboard application deployment)
 """
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme_content)
 
-print("✓ Fixed README.md has been generated with native GitHub markdown ($ and $$) math delimiters!")
